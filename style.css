@@ -21,6 +21,10 @@ main{
 	background: var(--main-background);
 }
 
+html{
+	scroll-behavior: smooth;
+}
+
 /*────────────────── 
        header
 ──────────────────*/
