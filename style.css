@@ -413,3 +413,20 @@ hr {
 .nav-active{
 	transform:translatex(0%);
 }
+
+.navbar
+{
+  background: linear-gradient(90deg,#11659c,#050463);
+}
+
+@media screen and (min-width:993px) {
+.nav-item
+  {
+    transition: .3s;
+    margin-left: 25px;
+  }
+.nav-item:hover
+  {
+    transform: scale(1.3);
+  }
+}
